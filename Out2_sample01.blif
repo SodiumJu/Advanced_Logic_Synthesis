@@ -1,0 +1,27 @@
+.model sample01
+.inputs a b c d e
+.outputs h j
+.names [1] [2] f
+1- 1
+-1 1
+.names f a h
+1- 1
+-1 1
+.names b a [2]
+1- 1
+-1 1
+.names b d g
+1- 1
+-1 1
+.names d c [1]
+1- 1
+-1 1
+.names f [4] i
+11 1
+.names e d [3]
+11 1
+.names [3] g [4]
+11 1
+.names i j
+0 1
+.end
